@@ -1,0 +1,29 @@
+name: Wrong label
+description: Report an issue that laya-triage labeled incorrectly
+body:
+  - type: input
+    id: issue-title
+    attributes:
+      label: Issue title
+      description: Title of the issue that got the wrong label
+    validations:
+      required: true
+  - type: textarea
+    id: issue-body
+    attributes:
+      label: Issue body or link
+      description: Paste the issue body, or a link to the issue
+    validations:
+      required: true
+  - type: input
+    id: label-added
+    attributes:
+      label: Label added by laya-triage
+    validations:
+      required: true
+  - type: input
+    id: label-expected
+    attributes:
+      label: Expected label
+    validations:
+      required: true
