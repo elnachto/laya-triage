@@ -11,15 +11,26 @@ MINIMO_ETIQUETADOS = 30
 DIAS_HISTORIAL = 365
 
 SINONIMOS = {
-    "bug": ["bug", "type bug", "kind bug", "t bug", "bug report", "confirmed bug"],
+    "bug": [
+        "bug", "type bug", "kind bug", "t bug", "bug report", "confirmed bug",
+        "defect", "type defect", "c bug",
+    ],
     "feature": [
         "enhancement", "feature", "feature request", "new feature", "type feature",
         "type enhancement", "kind feature", "kind enhancement", "t feature", "t enhancement",
+        "improvement", "proposal", "idea", "suggestion", "type improvement",
+        "kind improvement", "c enhancement", "c feature request", "feature idea",
     ],
-    "question": ["question", "type question", "kind question", "support", "type support", "t question"],
+    "question": [
+        "question", "type question", "kind question", "support", "type support", "t question",
+        "usage", "q&a", "how to", "kind support",
+        "t support", "c question",
+    ],
     "docs": [
         "documentation", "docs", "doc", "type docs", "type documentation",
         "kind documentation", "kind docs", "area docs", "t docs",
+        "area documentation", "kind doc", "type doc", "t doc", "c docs",
+        "c documentation", "a docs",
     ],
 }
 
